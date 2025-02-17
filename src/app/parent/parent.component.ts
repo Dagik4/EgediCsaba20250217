@@ -3,7 +3,7 @@ import { ChildComponent } from '../child/child.component';
 
 @Component({
   selector: 'app-parent',
-  standalone: true, // Standalone komponens
+  standalone: true, 
   templateUrl: './parent.component.html',
   styleUrls: ['./parent.component.css'],
   imports: [ChildComponent] 
