@@ -14,6 +14,6 @@ export class ParentComponent {
   result: number = 0; 
 
   updateResult(value: number) {
-    this.result = value;
+    this.result = value,
   }
 }
